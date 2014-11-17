@@ -2,6 +2,12 @@
 
 This is HTML5 application, built with [Brunch](http://brunch.io).
 
+## Install
+
+`brunch new gh:hellyeahllc/brunch-with-exim`
+
+To install Brunch: `npm install -g brunch`
+
 ## Getting started
 * Install (if you don't have them):
     * [Node.js](http://nodejs.org): `brew install node` on OS X
