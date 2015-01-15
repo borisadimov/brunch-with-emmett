@@ -1,12 +1,12 @@
 {
-  "name": "your-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "brunch-with-emmett",
+  "description": "Brunch skeleton using Exim (React + Flux) and React Router.",
+  "author": "Josh Habdas",
   "version": "0.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jhabdas/brunch-with-emmett"
   },
   "scripts": {
     "start": "brunch watch --server",
@@ -16,6 +16,8 @@
     "auto-reload-brunch": "^1.7.5",
     "clean-css-brunch": ">= 1.0 < 1.8",
     "coffee-script-brunch": "^1.8.1",
+    "react-coffee-brunch": "^1.7.1",
+    "coffeelint-brunch": ">=1.0 <1.8",
     "css-brunch": ">= 1.0 < 1.8",
     "javascript-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8"
