@@ -9,7 +9,7 @@
     "url": "https://github.com/jhabdas/brunch-with-emmett"
   },
   "scripts": {
-    "start": "npm install && bower install && brunch watch --server",
+    "start": "brunch watch --server",
     "test": "brunch test"
   },
   "dependencies": {
