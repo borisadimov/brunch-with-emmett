@@ -1,10 +1,25 @@
 {
-  "name": "your-app",
+  "name": "brunch-with-emmett",
   "version": "0.0.1",
   "main": "public/app.js",
   "dependencies": {
-    "exim": "~0.3.0",
-    "normalize-css": "~3.0.2"
+    "exim": "~0.4.0",
+    "bluebird": "~2.3.6",
+    "react": "~0.12.1",
+    "react-router": "*",
+    "topcoat": "~0.8.0"
   },
-  "overrides": {}
+  "overrides": {
+    "react-router": {
+      "dependencies": {
+        "react": "*"
+      }
+    },
+    "topcoat": {
+      "main": [
+        "css/topcoat-mobile-light.css",
+        "js/main.js"
+      ]
+    }
+  }
 }

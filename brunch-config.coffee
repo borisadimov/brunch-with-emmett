@@ -1,11 +1,11 @@
 exports.config =
-  # See http://brunch.io/#documentation for docs.
+  # @see http://brunch.io/#documentation for docs
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^(?!app)/
+        'scripts/app.js': /^app/
+        'scripts/vendor.js': /^(?!app)/
     stylesheets:
-      joinTo: 'stylesheets/app.css'
+      joinTo: 'styles/app.css'
     templates:
-      joinTo: 'javascripts/app.js'
+      joinTo: 'scripts/app.js'
