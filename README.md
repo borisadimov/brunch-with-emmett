@@ -8,7 +8,6 @@
 - [Node.js](http://nodejs.org): `brew install node` on OS X
 - [Brunch](http://brunch.io): `npm install -g brunch`
 - [Bower](http://bower.io): `npm install -g bower`
-- Brunch plugins and Bower dependencies: `npm install & bower install`.
 
 ## Installation
 
