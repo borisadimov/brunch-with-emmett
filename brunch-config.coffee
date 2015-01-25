@@ -9,3 +9,11 @@ exports.config =
       joinTo: 'styles/app.css'
     templates:
       joinTo: 'scripts/app.js'
+
+  plugins:
+    # react:
+    #   harmony: yes # include es6 transforms
+    coffeelint:
+      pattern: /^app\/.*\.coffee$/
+      options:
+        max_line_length: {level: 'ignore'}

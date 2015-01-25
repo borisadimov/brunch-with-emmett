@@ -1,9 +1,9 @@
-App = require('components/App')
+AppCanvas = require('components/AppCanvas')
 
 module.exports = class Application
 
   constructor: ->
     {startRouting, match} = Exim.Router
     startRouting(
-      match 'app', App, path: '/'
+      match 'app', AppCanvas, path: '/'
     , document.body)
